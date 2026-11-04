@@ -31,9 +31,16 @@
     ```bash
     git clone https://github.com/romandavydov647-root/car-damage-detection-yolo-cv.git
     cd car-damage-detection-yolo-cv
-pip install ultralytics opencv-python
-python convert_coco_to_yolo.py
-python train.py
+2.  Установите зависимости:
+    ```bash
+    pip install ultralytics opencv-python
+3.  Запустите конвертацию данных (пример):
+    ```bash
+    python convert_coco_to_yolo.py
+4.  Запустите обучение:
+    ```bash
+    python train.py
+    
 📈 Результаты обучения
 Модель: YOLOv8n
 
